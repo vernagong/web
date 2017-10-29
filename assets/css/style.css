@@ -398,6 +398,7 @@ section {
 
 .header {
     background-image: url(../img/header-bg2.png);
+    background-size: cover;
     height: 100vh;
     position: relative;
     min-height: 659px;
