@@ -441,7 +441,7 @@ section {
 }
 
 .about {
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 
 .about img {
@@ -464,6 +464,97 @@ section {
 
 .expert p {
     line-height: 200%;
+}
+
+
+/* Portfolio
+---------------------------------*/
+
+#workstation {
+    background-color: #f8f8f8;
+}
+
+.Portfolio-nav {
+    padding: 0;
+    margin: 0 0 45px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.Portfolio-nav li {
+    margin: 0 10px;
+    display: inline;
+}
+
+.Portfolio-nav li a {
+    display: inline-block;
+    padding: 10px 22px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #222222;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    background: #f7f7f7;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.Portfolio-nav li a:hover {
+    background: #7cc576;
+    color: #fff;
+    text-decoration: none;
+}
+
+.portfolioContainer {
+    margin: 0 auto;
+}
+
+.Portfolio-box {
+    text-align: center;
+    margin-bottom: 30px;
+    overflow: hidden;
+    float: center;
+    padding: 20px;
+}
+
+.portfolio-title {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.portfolio-title:after {
+    content: '';
+    height: 5px;
+    width: 40px;
+    background-color: #ff9300;
+    position: absolute;
+    top: 81px;
+    left: calc(50% - 20px);
+}
+
+.Portfolio-box img {
+    margin-bottom: 25px;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+.Portfolio-box img:hover {
+    opacity: 0.6;
+}
+
+.Portfolio-nav li a.current {
+    background: #7cc576;
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }
 
 
@@ -494,6 +585,10 @@ section {
 
 
 /*bonny的專案目標區*/
+
+#About-b {
+    background-color: #f8f8f8;
+}
 
 .bg-img2 {
     background-size: cover;
@@ -563,6 +658,10 @@ section {
 
 /*su的專案目標區*/
 
+#About-su {
+    background-color: #f8f8f8;
+}
+
 .bg-img4 {
     background-size: cover;
     background-repeat: no-repeat;
@@ -596,6 +695,10 @@ section {
 
 
 /*s的專案簡介區*/
+
+#About-s {
+    background-color: #f8f8f8;
+}
 
 .bg-img5 {
     background-size: cover;
@@ -666,7 +769,7 @@ section {
 /*index的wf demo區*/
 
 .vira-quote {
-    background-image: url(../img/solgan.jpeg);
+    background-color: #ff9300;
     /*padding: 120px 0;*/
     color: #fff;
     font-style: italic;
