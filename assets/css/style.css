@@ -766,6 +766,78 @@ img {
 }
 
 
+/*HT的專案簡介區*/
+
+#About-s {
+    background-color: #f8f8f8;
+}
+
+.bg-img7 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-img7 div {
+    z-index: 1;
+    position: relative;
+}
+
+.bg-img7:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    left: 0;
+    top: 0;
+}
+
+.expert .bg-img7 {
+    background-image: url(../img/HTproject.png);
+    background-position: 85%;
+    height: 473px;
+}
+
+.expert .bg-img7:after {
+    display: none;
+}
+
+
+/*HT的專案目標區*/
+
+.bg-img8 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-img8 div {
+    z-index: 1;
+    position: relative;
+}
+
+.bg-img8:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    left: 0;
+    top: 0;
+}
+
+.expert .bg-img8 {
+    background-image: url(../img/HTcontent.png);
+    background-position: 85%;
+    height: 473px;
+}
+
+.expert .bg-img8:after {
+    display: none;
+}
+
+
 /*index的wf demo區*/
 
 .vira-quote {
@@ -857,6 +929,30 @@ img {
 }
 
 .vira-quote-s .author {
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+
+
+/*HT的wf demo區*/
+
+.vira-quote-ht {
+    background-image: url(../img/HTsketch.png);
+    /*padding: 120px 0;*/
+    color: #fff;
+    font-style: italic;
+}
+
+.vira-quote-ht p {
+    font-size: 32px;
+    color: #fff;
+}
+
+.vira-quote-ht .quote {
+    margin-bottom: 40px;
+}
+
+.vira-quote-ht .author {
     font-size: 21px;
     margin-bottom: 40px;
 }
