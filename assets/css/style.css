@@ -694,6 +694,65 @@ img {
 }
 
 
+/* SU persona & user story */
+
+#content {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.skill-home {
+    /* margin-bottom:50px; */
+}
+
+.c1 {
+    /* border: #ed5441 1px solid; */
+    /* background:#ed5441; */
+}
+
+.c2 {
+    /* border: #24DB5A 1px solid; */
+    /* background: #24DB5A; */
+}
+
+.skill-home .icons {
+    padding: 36px 0 14px 0px;
+    width: 100%;
+    color: #ff9300;
+    font-size: 42px;
+    font-size: 68px;
+    text-align: center;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 0;
+    display: inline-table;
+    float: left;
+}
+
+.skill-home h2 {
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.skill-home h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box-area {
+    padding: 0 0;
+    /* padding-top: 0; */
+    /* height: 125px; */
+    float: left;
+    text-align: center;
+    padding: 0px 20px;
+    width: 100%;
+    color: #;
+}
+
+
 /*s的專案簡介區*/
 
 #About-s {
@@ -920,8 +979,9 @@ img {
 }
 
 .vira-quote-s p {
-    font-size: 32px;
-    color: #fff;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: #767676 0.05em 0.05em 0.2em;
 }
 
 .vira-quote-s .quote {
@@ -931,6 +991,36 @@ img {
 .vira-quote-s .author {
     font-size: 21px;
     margin-bottom: 40px;
+}
+
+
+/* s的設計挑戰 */
+
+#expertise-esun {
+    background-color: #f8f8f8;
+}
+
+
+/* s的色彩計畫 */
+
+#color-esun {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.color-icon1,
+.color-title1 {
+    color: #009E96;
+}
+
+.color-icon2,
+.color-title2 {
+    color: #e88883;
+}
+
+.color-icon3,
+.color-title3 {
+    color: #1A1A1A;
 }
 
 
