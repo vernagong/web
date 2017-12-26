@@ -441,7 +441,7 @@ section {
 }
 
 .about {
-    background-color: #fff;
+    background-color: #f8f8f8;
 }
 
 .about img {
@@ -900,7 +900,7 @@ img {
 /*index的wf demo區*/
 
 .vira-quote {
-    background-color: #ff9300;
+    background-color: #ff9d00;
     /*padding: 120px 0;*/
     color: #fff;
     font-style: italic;
@@ -957,6 +957,7 @@ img {
 .vira-quote-u p {
     font-size: 32px;
     color: #fff;
+    text-shadow: #8d8d8d 0.05em 0.05em 0.2em;
 }
 
 .vira-quote-u .quote {
@@ -974,7 +975,7 @@ img {
 #color-su {
     padding-top: 80px;
     padding-bottom: 60px;
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 
 .color-icon-su1,
@@ -993,7 +994,7 @@ img {
 }
 
 #workstation-su-work {
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 
 
@@ -1009,7 +1010,7 @@ img {
 .vira-quote-s p {
     font-size: 30px;
     color: #ffffff;
-    text-shadow: #767676 0.05em 0.05em 0.2em;
+    text-shadow: #8d8d8d 0.05em 0.05em 0.2em;
 }
 
 .vira-quote-s .quote {
@@ -1052,6 +1053,31 @@ img {
 }
 
 
+/* HT的設計挑戰 */
+
+#expertise-HT {
+    background-color: #f8f8f8;
+}
+
+
+/* HT的色彩計畫 */
+
+.color-icon-ht1,
+.color-title-ht1 {
+    color: #84CD48;
+}
+
+.color-icon-ht2,
+.color-title-ht2 {
+    color: #9668BA;
+}
+
+.color-icon-ht3,
+.color-title-ht3 {
+    color: #F33D81;
+}
+
+
 /*HT的wf demo區*/
 
 .vira-quote-ht {
@@ -1064,6 +1090,7 @@ img {
 .vira-quote-ht p {
     font-size: 32px;
     color: #fff;
+    text-shadow: #8d8d8d 0.05em 0.05em 0.2em;
 }
 
 .vira-quote-ht .quote {
