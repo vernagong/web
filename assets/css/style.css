@@ -587,7 +587,7 @@ img {
 /*bonny的專案目標區*/
 
 #About-b {
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 
 .bg-img2 {
@@ -927,6 +927,7 @@ img {
     background-image: url(../img/Bsketch.png);
     /*padding: 120px 0;*/
     color: #fff;
+    text-shadow: #8d8d8d 0.05em 0.05em 0.2em;
     font-style: italic;
 }
 
@@ -995,6 +996,28 @@ img {
 
 #workstation-su-work {
     background-color: #fff;
+}
+
+
+/* bonny的色彩計畫 */
+
+#color-bonny {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f5f2f2;
+}
+
+.color-icon-b1,
+.color-title-b1 {
+    color: #1E57AE;
+}
+
+.color-icon-b2 {
+    color: #fff;
+}
+
+.color-title-b2 {
+    color: #a3a3a3;
 }
 
 
