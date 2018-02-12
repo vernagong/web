@@ -558,6 +558,45 @@ img {
 }
 
 
+/* eSUN 介面細節 */
+
+#page-info {
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.pageinfo_pic {
+    width: 275px;
+    padding-bottom: 40px;
+}
+
+.pageinfo_title {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.pageinfo_p {
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title-UI {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.title-UI:after {
+    content: '';
+    height: 5px;
+    width: 40px;
+    background-color: #ff9300;
+    position: absolute;
+    left: calc(50% - 20px);
+}
+
+
 /*bonny的專案簡介區*/
 
 .expert .bg-img {
