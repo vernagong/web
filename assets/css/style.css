@@ -441,7 +441,7 @@ section {
 }
 
 .about {
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 
 .about img {
@@ -638,7 +638,7 @@ img {
 /*bonny的專案目標區*/
 
 #About-b {
-    background-color: #fff;
+    background-color: #f8f8f8;
 }
 
 .bg-img2 {
@@ -806,7 +806,8 @@ img {
 
 /*s的專案簡介區*/
 
-#About-s {
+#About-s,
+#About-su {
     background-color: #f8f8f8;
 }
 
@@ -1055,7 +1056,7 @@ img {
 #color-bonny {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #f5f2f2;
+    background-color: #fff;
 }
 
 .color-icon-b1,
