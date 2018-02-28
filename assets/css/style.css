@@ -1064,12 +1064,13 @@ img {
     color: #1E57AE;
 }
 
-.color-icon-b2 {
-    color: #fff;
-}
-
 .color-title-b2 {
     color: #a3a3a3;
+}
+
+.color-icon-b2 {
+    color: #fff;
+    border-color: #a3a3a3;
 }
 
 
