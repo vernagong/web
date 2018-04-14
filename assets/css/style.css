@@ -167,7 +167,6 @@ section {
     content: '';
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
     left: 0;
     top: 0;
 }
@@ -276,45 +275,6 @@ section {
 
 .small-btn {
     padding: 10px 130px;
-}
-
-
-/*Element page*/
-
-.element .title:after {
-    left: 0;
-    top: 60px;
-}
-
-.headings p {
-    margin-bottom: 80px;
-}
-
-.social-icons ul {
-    text-align: center;
-    padding-left: 0;
-    display: inline-block;
-}
-
-.social-icons ul a li {
-    display: inline-block;
-    list-style-type: none;
-    border: 2px solid #51c2b9;
-    margin-right: 10px;
-    background-color: #51c2b9;
-    color: #fff;
-    font-size: 18px;
-    line-height: 32px;
-    width: 36px;
-}
-
-.social-icons ul a li:last-child {
-    margin-right: 0;
-}
-
-.social-icons ul a:hover li {
-    color: #51c2b9;
-    background-color: #fff;
 }
 
 
@@ -441,7 +401,7 @@ section {
 }
 
 .about {
-    background-color: #fff;
+    background-color: #f8f8f8;
 }
 
 .about img {
@@ -520,22 +480,6 @@ section {
     padding: 20px;
 }
 
-.portfolio-title {
-    position: relative;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.portfolio-title:after {
-    content: '';
-    height: 5px;
-    width: 40px;
-    background-color: #ff9300;
-    position: absolute;
-    top: 81px;
-    left: calc(50% - 20px);
-}
-
 .Portfolio-box img {
     margin-bottom: 25px;
     transition: all 0.3s ease-in-out;
@@ -555,6 +499,49 @@ section {
 
 img {
     max-width: 100%;
+}
+
+
+/*　behance*/
+
+#behance {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.four-features {
+    padding-bottom: 60px;
+}
+
+.be-pic {
+    border-radius: 5px;
+}
+
+.features-content {
+    padding-top: 40px;
+}
+
+.btn-learn-more {
+    color: #ff9300;
+}
+
+.btn-learn-more:hover {
+    color: #ff4e00;
+}
+
+.vira-btn-be {
+    color: #ff9300;
+    border: 2px solid #ff9300;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.vira-btn-be:hover {
+    border-color: #ff9300;
+    background-color: #ff9300;
+    color: #fff;
 }
 
 
