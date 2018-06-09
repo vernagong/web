@@ -1127,17 +1127,17 @@ img {
 
 .color-icon-ht1,
 .color-title-ht1 {
-    color: #84CD48;
+    color: #050505;
 }
 
 .color-icon-ht2,
 .color-title-ht2 {
-    color: #9668BA;
+    color: #FFC51D;
 }
 
 .color-icon-ht3,
 .color-title-ht3 {
-    color: #F33D81;
+    color: #00AFFF;
 }
 
 
@@ -1232,6 +1232,109 @@ img {
 
 .work {
     background-color: #fff;
+}
+
+
+/* 以下是Zbot的CSS  */
+
+
+/* Zbot的Join */
+
+#Join {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f8f8f8;
+}
+
+.attend-flow {
+    background-color: #f8f8f8;
+}
+
+.join-flow {
+    padding-bottom: 40px;
+}
+
+.attend-n {
+    color: #6d6d6d;
+}
+
+.attend-y {
+    color: #ff9300;
+}
+
+.UIflow_pic {
+    padding-top: 30px;
+}
+
+.wireframe {
+    padding-top: 30px;
+}
+
+
+/* Zbot的間隔區 */
+
+.bg-Zbot {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-Zbot div {
+    z-index: 1;
+    position: relative;
+}
+
+.bg-Zbot:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    left: 0;
+    top: 0;
+}
+
+.bg-Zbot {
+    background-image: url(../img/Zbot-pic.png);
+    background-position: 85%;
+}
+
+
+/* Zbot的設計挑戰 */
+
+#Zbot-challeng {
+    background-color: #f8f8f8;
+}
+
+.bg-challeng {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg-challeng div {
+    z-index: 1;
+    position: relative;
+}
+
+.bg-challeng:after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    left: 0;
+    top: 0;
+}
+
+.expert .bg-challeng {
+    background-image: url(../img/zbot_expo.jpg);
+    background-position: 85%;
+    height: 430px;
+}
+
+.expert .bg-challeng:after {
+    display: none;
 }
 
 
