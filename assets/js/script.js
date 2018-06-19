@@ -1,15 +1,5 @@
 $(document).ready(function () {
 
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-
-        if (scroll >= 569) {
-            $(".navbar").addClass("navbar-fixed-top dark-bar");
-        } else {
-            $(".navbar").removeClass("navbar-fixed-top dark-bar");
-        }
-    });
-
 
     // Smooth Scroll
 
@@ -70,7 +60,6 @@ $(document).ready(function () {
     $('.expert .col-sm-6 div').height(function (index, height) {
         return (h);
     });
-
     // Menu bar
     $(".menu").click(function () {
         $(this).toggleClass('m c');
