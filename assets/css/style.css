@@ -589,6 +589,42 @@ img {
 }
 
 
+/* blog-medium 
+-------------------------------- */
+
+#blog {
+    background-color: #f8f8f8;
+    padding: 100px 0 100px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.round-img {
+    display: table;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+}
+
+.holder-para {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.blog-btn {
+    margin-top: 40px;
+}
+
+.btn-blog-more {
+    color: #ff9300;
+}
+
+.btn-blog-more:hover {
+    color: #ff4e00;
+}
+
+
 /* bonny 介面細節 */
 
 .pageinfo_pic_bonny {
