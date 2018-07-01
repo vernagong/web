@@ -502,7 +502,8 @@ img {
 }
 
 
-/*　behance*/
+/*　behance
+----------------------------------*/
 
 #behance {
     padding-top: 100px;
@@ -1020,8 +1021,10 @@ img {
     margin-bottom: 40px;
 }
 
+/*======SU======*/
 
-/*su的wf demo區*/
+/*su的wf demo區
+--------------------------------*/
 
 .vira-quote-u {
     background-image: url(../img/usketch.png);
@@ -1045,8 +1048,33 @@ img {
     margin-bottom: 40px;
 }
 
+/* su圖片css
+---------------------------*/
 
-/* su的色彩計畫 */
+.UI-img {
+    width: 640px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.UI-img-funny {
+    padding: 60px 50px 60px 50px;
+}
+
+.pageinfo_p-funny {
+    text-align: left;
+    vertical-align: middle;
+    padding: 180px 20px 40px 20px;
+}
+
+.su-fun-row {
+    padding: 0px;
+    margin: 0px;
+    background-color: #f8f8f8;
+}
+
+/* su的色彩計畫
+---------------------------*/
 
 #color-su {
     padding-top: 80px;
@@ -1273,7 +1301,6 @@ img {
 
 /* 以下是Zbot的CSS  */
 
-
 /* Zbot的Join */
 
 #Join {
@@ -1429,7 +1456,7 @@ img {
     text-align: center;
 }
 
-.social-link a>i.fa {
+.social-link a > i.fa {
     line-height: 40px;
     color: #fff;
 }
