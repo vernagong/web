@@ -857,7 +857,7 @@ img {
 }
 
 .expert .bg-img5 {
-    background-image: url(../img/sproject.png);
+    background-image: url(../img/scontent.png);
     background-position: 85%;
     height: 473px;
 }
@@ -891,9 +891,9 @@ img {
 }
 
 .expert .bg-img6 {
-    background-image: url(../img/scontent.png);
+    background-image: url(../img/S_ios_UI.png);
     background-position: 85%;
-    height: 473px;
+    height: 420px;
 }
 
 .expert .bg-img6:after {
