@@ -638,7 +638,7 @@ img {
 .expert .bg-img {
     background-image: url(../img/BProject.png);
     background-position-x: 85%;
-    height: 100%;
+    height: 473px;
 }
 
 .expert .bg-img:after {
