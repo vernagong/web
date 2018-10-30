@@ -1607,6 +1607,40 @@ row-send {
 /*密碼頁結束
 ============================= */
 
+/* 預約服務系統 CSS 
+============================= */
+#bookink_role{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.role-txt{
+    text-align: left;
+}
+#background,
+#soluction{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #fff;
+}
+.client-txt{
+    float: left;
+    padding: 20px 30px;
+    text-align: left;
+}
+.task-txt{
+    float: left;
+    text-align: left;
+    padding: 20px 30px;
+}
+#usermap{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #f8f8f8;
+}
+
+/* 預約服務系統 結束 
+============================= */
+
 /*animations*/
 
 .vira-card .vira-card-header .card-icon:after {
